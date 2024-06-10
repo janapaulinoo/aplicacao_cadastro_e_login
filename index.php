@@ -157,11 +157,11 @@
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
     <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
+      <h3 class="float-md-start mb-0">Página Inicial</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="cadastro.php">Features</a>
-        <a class="nav-link fw-bold py-1 px-0" href="login.php">Contact</a>
+        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Página Inicial</a>
+        <a class="nav-link fw-bold py-1 px-0" href="cadastro.php">Cadastre-se</a>
+        <a class="nav-link fw-bold py-1 px-0" href="login.php">Login</a>
       </nav>
     </div>
   </header>
