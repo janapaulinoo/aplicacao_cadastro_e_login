@@ -7,7 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Cover Template · Bootstrap v5.3</title>
+    <script src="cadastro.js"></script>
+    <title>Cadastro</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -172,17 +173,17 @@
 
     <div class="col-6">
       <label for="inputZip" class="form-label">e-mail</label>
-      <input type="text" class="form-control border border-info" id="e-mail">
+      <input type="text" class="form-control border border-info" id="email">
     </div>
 
       <div class="col-6">
         <label for="inputZip" class="form-label">nome</label>
-        <input type="text" class="form-control border border-info" id="nome">
+        <input type="text" class="form-control border border-info" id="name">
       </div><br>
 
         <div class="col-6">
           <label for="inputZip" class="form-label">data de nascimento</label>
-        <input type="date" class="form-control border border-info" id="dataNascimento">
+        <input type="date" class="form-control border border-info" id="dataNasc">
         </div><br>
 
             <div class="col-6">
@@ -193,13 +194,15 @@
             <!-- </span> -->
             <div class="col-6">
               <label for="senha" class="form-label">Senha</label><br>
-              <input type="password" class="form-control border border-info rounded-1" id="senha"><br>
+              <input type="password" class="form-control border border-info rounded-1" id="passaword"><br>
             </div>
 
             <div class="col-6">
               <label for="confirmSenha" class="form-label">Confirme a Senha</label><br>
-              <input type="password" class="form-control border border-info rounded-1" id="confirmSenha"><br>
+              <input type="password" class="form-control border border-info rounded-1" id="password"><br>
             </div>
+
+            <button type="button" onclick="Validar()">cadastrar</button>
   </main>
 
   <footer class="mt-auto text-white-50">
