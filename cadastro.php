@@ -167,11 +167,39 @@
   </header>
 
   <main class="px-3">
-    <h1>Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
-    </p>
+    <div class="p-3 mb-2">
+      <form class="row g-3">
+
+    <div class="col-6">
+      <label for="inputZip" class="form-label">e-mail</label>
+      <input type="text" class="form-control border border-info" id="e-mail">
+    </div>
+
+      <div class="col-6">
+        <label for="inputZip" class="form-label">nome</label>
+        <input type="text" class="form-control border border-info" id="nome">
+      </div><br>
+
+        <div class="col-6">
+          <label for="inputZip" class="form-label">data de nascimento</label>
+        <input type="date" class="form-control border border-info" id="dataNascimento">
+        </div><br>
+
+            <div class="col-6">
+              <label for="inputZip" class="form-label">telefone</label>
+              <input type="text" class="form-control border border-info" id="telefone">
+            </div><br>
+            
+            <!-- </span> -->
+            <div class="col-6">
+              <label for="senha" class="form-label">Senha</label><br>
+              <input type="password" class="form-control border border-info rounded-1" id="senha"><br>
+            </div>
+
+            <div class="col-6">
+              <label for="confirmSenha" class="form-label">Confirme a Senha</label><br>
+              <input type="password" class="form-control border border-info rounded-1" id="confirmSenha"><br>
+            </div>
   </main>
 
   <footer class="mt-auto text-white-50">
