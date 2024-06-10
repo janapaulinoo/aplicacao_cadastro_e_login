@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en" class="h-100" data-bs-theme="auto">
-  <head><script src="../assets/js/color-modes.js"></script>
+  <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Cover Template · Bootstrap v5.3</title>
+    <script src="cadastro.js"></script>
+    <title>Login</title>
+
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -167,20 +169,25 @@
   </header>
 
   <main class="px-3">
-    <h1>Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
-    </p>
+  <div class="p-3 mb-2">
+      <form class="row g-3">
+
+    <div class="col-6">
+      <label for="inputZip" class="form-label">E-mail</label>
+      <input type="text" class="form-control border border-info" id="email">
+    </div>
+          
+        <div class="col-6">
+          <label for="senha" class="form-label">Senha</label><br>
+          <input type="password" class="form-control border border-info rounded-1" id="passaword"><br>
+    </div>
+
+    <button type="button" onclick="ValidarLogin()">Login</button>
   </main>
 
   <footer class="mt-auto text-white-50">
-    <p>Cover template for 
-      
-    <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
   </footer>
-</div>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script> 
-
+    </div>
     </body>
 </html>
