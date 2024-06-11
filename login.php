@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <script src="cadastro.js"></script>
+    
     <title>Login</title>
 
 
@@ -179,15 +179,16 @@
           
         <div class="col-6">
           <label for="senha" class="form-label">Senha</label><br>
-          <input type="password" class="form-control border border-info rounded-1" id="passaword"><br>
-    </div>
+          <input type="password" class="form-control border border-info rounded-1" id="password"><br>
+        </div>
 
     <button type="button" onclick="ValidarLogin()">Login</button>
+    </div>
   </main>
 
   <footer class="mt-auto text-white-50">
     <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
   </footer>
-    </div>
+  <script src="cadastro.js"></script>
     </body>
 </html>
